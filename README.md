@@ -36,11 +36,15 @@
 5. 打开模块设置界面，选择工作模式
 6. 重启TikTok
 
+## 下载
+
+从 [Releases](https://github.com/NZM7973/TikTokSIMSpoof/releases) 页面下载最新APK。
+
 ## 编译
 
 ```bash
 # 克隆项目
-git clone https://github.com/<your-username>/TikTokSIMSpoof.git
+git clone https://github.com/NZM7973/TikTokSIMSpoof.git
 cd TikTokSIMSpoof
 
 # 编译Debug版本
@@ -56,13 +60,7 @@ cd TikTokSIMSpoof
 
 由于是Hook系统级API而非TikTok内部代码，所以理论上支持TikTok的所有版本。
 
-## 注意事项
-
-- 需要LSPosed框架支持
-- Android 15+需要使用JingMatrix Fork版LSPosed
-- Android 16需要使用Canary版LSPosed
-- 更改设置后需要重启TikTok才能生效
-
 ## 许可证
 
 MIT License
+
