@@ -14,19 +14,6 @@
 - ✅ 省电设计：无后台服务，仅在TikTok调用API时响应
 - ✅ 简洁的中文界面
 
-## 支持的地区
-
-| 地区 | 国家码 | 运营商 |
-|------|--------|--------|
-| 美国 | us | T-Mobile |
-| 日本 | jp | NTT DOCOMO |
-| 韩国 | kr | SK Telecom |
-| 台湾 | tw | 中华电信 |
-| 香港 | hk | CSL Mobile |
-| 新加坡 | sg | SingTel |
-| 英国 | gb | O2 UK |
-| 德国 | de | T-Mobile DE |
-
 ## 安装
 
 1. 确保设备已Root并安装LSPosed
