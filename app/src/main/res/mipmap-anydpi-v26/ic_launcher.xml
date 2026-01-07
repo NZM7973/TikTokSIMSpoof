@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 背景圆形 -->
+    <path
+        android:fillColor="#FF0050"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0" />
+
+    <!-- SIM卡图标 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,30 L60,30 L68,38 L68,78 L40,78 Z" />
+
+    <!-- SIM卡缺角 -->
+    <path
+        android:fillColor="#FF0050"
+        android:pathData="M60,30 L60,38 L68,38 Z" />
+
+    <!-- 芯片区域 -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M46,48 L62,48 L62,66 L46,66 Z" />
+
+    <!-- 芯片线条 -->
+    <path
+        android:strokeColor="#CC9900"
+        android:strokeWidth="1"
+        android:pathData="M46,54 L62,54 M46,60 L62,60 M54,48 L54,66" />
+
+    <!-- 禁止符号 (可选，用于隐藏模式) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:pathData="M30,78 L78,30" />
+
+</vector>

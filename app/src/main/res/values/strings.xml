@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TikTokSIMSpoof</string>
+    
+    <!-- 设置界面 -->
+    <string name="settings_title">TikTokSIMSpoof</string>
+    <string name="mode_title">工作模式</string>
+    <string name="mode_hide">隐藏SIM卡</string>
+    <string name="mode_hide_desc">让TikTok认为设备没有插入SIM卡</string>
+    <string name="mode_spoof">伪装SIM卡</string>
+    <string name="mode_spoof_desc">将SIM卡信息伪装成其他地区</string>
+    
+    <!-- 地区选择 -->
+    <string name="region_title">选择目标地区</string>
+    <string name="region_us">美国 (T-Mobile)</string>
+    <string name="region_jp">日本 (NTT DOCOMO)</string>
+    <string name="region_kr">韩国 (SK Telecom)</string>
+    <string name="region_tw">台湾 (中华电信)</string>
+    <string name="region_hk">香港 (CSL Mobile)</string>
+    <string name="region_sg">新加坡 (SingTel)</string>
+    <string name="region_gb">英国 (O2 UK)</string>
+    <string name="region_de">德国 (T-Mobile DE)</string>
+    
+    <!-- 状态信息 -->
+    <string name="status_title">当前状态</string>
+    <string name="status_enabled">模块已启用</string>
+    <string name="status_disabled">模块未启用，请在LSPosed中激活</string>
+    <string name="status_mode">当前模式：%s</string>
+    <string name="status_region">目标地区：%s</string>
+    
+    <!-- 提示 -->
+    <string name="tip_restart">更改设置后需要重启TikTok才能生效</string>
+    <string name="save_success">设置已保存</string>
+    
+    <!-- 关于 -->
+    <string name="about_title">关于</string>
+    <string name="about_desc">本模块通过Hook系统API绕过TikTok的SIM卡检测。\n\n支持TikTok全版本，因为检测原理是调用系统API，与TikTok版本无关。\n\n省电设计：无后台服务，仅在TikTok调用API时响应。</string>
+    <string name="about_version">版本：%s</string>
+</resources>
